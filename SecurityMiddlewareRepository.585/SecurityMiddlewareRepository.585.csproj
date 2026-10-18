@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<RootNamespace>SecurityMiddlewareRepository._585</RootNamespace>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<!-- Nuget Paket Ayarları -->
+		<IsPackable>true</IsPackable>
+		<PackageId>SecurityMiddlewareRepository.585</PackageId>
+		<PackageVersion>10.0.0-alpha</PackageVersion>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.3.13" />
+	  <PackageReference Include="Microsoft.Extensions.Options" Version="10.0.13" />
+	</ItemGroup>
+
+</Project>
